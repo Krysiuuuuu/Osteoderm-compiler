@@ -1,0 +1,16 @@
+import { compileOsteoderms } from "./Compiler.js";
+
+document.getElementById("compileBtn").addEventListener("click", () => {
+  const source = document.getElementById("source").value;
+  const input = document.getElementById("input").value;
+  const output = compileOsteoderms(source, input);
+  document.getElementById("output").value = output;
+});
+
+document.getElementById("runBtn").addEventListener("click", () => {
+  // For now, "Run" behaves the same as "Compile"
+  const source = document.getElementById("source").value;
+  const input = document.getElementById("input").value;
+  const output = compileOsteoderms(source, input);
+  document.getElementById("output").value = output;
+});
