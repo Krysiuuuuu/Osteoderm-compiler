@@ -19,7 +19,11 @@ You start and end loops with /^\\. The number of ^ determines how many repeats s
 The only 'if' statement is ^ //\\,/\\ /I ^^^^. It checks if variable ,/\\ has a value of 4. Of course, this is just an example and you can put other variables and values into the statement.
 Breakdown:
 ^ means if
+
 //\\,/\ means the ,/\ variable (or any variable, eg. 1 or /'\\)
+
 /I means is equal to
+
 ^^^^ means four (or any value, but better it be in unary with ^ symbol)
+
 And the line after states what happens if variable ... has a value of ...
