@@ -7,6 +7,8 @@ document.getElementById("compileBtn").addEventListener("click", () => {
   document.getElementById("output").value = output;
 });
 
+import { compileOsteoderms } from "./Compiler.js";
+
 document.getElementById("runBtn").addEventListener("click", () => {
   // For now, "Run" behaves the same as "Compile"
   const source = document.getElementById("source").value;
