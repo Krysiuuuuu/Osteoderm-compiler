@@ -7,7 +7,7 @@ This is a compiler for my esolang Osteoderms, that focuses on looking like a ste
 Numbers are in unary (^^^^^^^^^^^^^).
 ^//\ creates a new variable. ***VALID NAMES FOR VARIABLES***: 1 and ,/\ and /'\\. Created variables shall not have the ^ before them. Eg.: ^//\ /I ^^^^ creates a variable that has a value of 4.
 /I is just the equal sign.
-Input from user is stored in variable's. The command is /\. Eg. ^//\1 /| /\ makes the variable "1" be the value of what the user inputs. Example: //\ /I ^^^^
+Input from user is stored in variables. The command is /\\. Eg. ^//\1 /| /\\ makes the variable "1" be the value of what the user inputs. Example: //\\ /I ^^^^
 You can do addition with /̑\\/̑\\, subtraction with /̑\\/̑\\/̑\\, multiplication with /̑\\/̑\\/̑\\/̑\\ and division with /̑\\/̑\\/̑\\/̑\\/̑\\. Eg.
 1. /̑\\2/̑\\1 adds 2 to 1, creating 3.
 2. /̑\\/̑\\3/̑\\5 subtracts 3 from 5, creating 2.
